@@ -422,5 +422,5 @@
     align-items: center;
 }
 .msg2:hover{
-    text-decoration: underline;
+    text-decoration: overline;
 }
