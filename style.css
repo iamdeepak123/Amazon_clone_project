@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo img {
+
+    height: 50px;
+    width: 100%;
+    
+
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.location {
+    color: white;
+    margin: center;
+    padding: center;
+    width: 90px;
+
+}
+
+.loc {
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bolder;
+
+}
+
+.de {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-search {
+    height: 40px;
+    width: 900px;
+    display: flex;
+    border-radius: 4px;
+
+}
+
+.nav-search:hover {
+    border: 2px solid yellow;
+}
+
+.option {
+    width: 60px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    color: hsl(0, 4%, 36%);
+
+}
+
+.search-holder {
+    width: 840px;
+    font-size: large;
+    border: none;
+
+}
+
+.search-icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 25px;
+}
+
+.flag {
+    width: 90px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 3px;
+
+}
+
+.lang {
+    height: 40px;
+    width: 55px;
+    display: flex;
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+.nav-span {
+    margin: 2px;
+    color: white;
+}
+
+.nav-order {
+    margin: 2px;
+    color: white;
+}
+
+.nav-cart {
+    display: flex;
+    height: 40px;
+    width: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.menu-bar {
+    height: 40px;
+    width: 100%;
+    background-color: #232f3e;
+
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+
+.menu-icon {
+    height: 35px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.all {
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.menu-list1,
+.menu-list2,
+.menu-list3,
+.menu-list4,
+.menu-list5 {
+
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.level2 {
+    height: 300px;
+    width: 100%;
+    background-image: url("image1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.msg {
+    background-color: #ffffff;
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.msg a {
+    color: #007185;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.shop-itmes {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 100%;
+    background-color: beige;
+    margin-top: 10px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8 {
+    height: 48%;
+    width: 24%;
+    border-radius: 5px solid black;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.link {
+    text-align: left;
+    height: 5%;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.link a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.box-1 {
+    background-image: url("Box1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.box-2 {
+    background-image: url("Box2.jpg");
+    background-size: cover;
+    text-decoration: none;
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-3 {
+    background-image: url("Box3.jpg");
+    background-size: cover;
+    text-decoration: none;
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-4 {
+    background-image: url("box4.webp");
+    background-size: cover;
+    background-position: left;
+    
+    text-decoration: dashed;
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-5 {
+    background-image: url("Box5.jpg");
+    background-size: cover;
+    text-decoration: dashed;
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-6 {
+    background-image: url("box6.jpeg");
+    background-size: cover;
+    text-decoration: dashed;
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-7 {
+    background-image: url("box7.jpg");
+    background-size: cover;
+    text-decoration: dashed;
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-8 {
+    background-image: url("box8.jpg");
+    background-size: cover;
+    text-decoration: dashed;
+    height: 85%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.head {
+    margin-left: 10px;
+}
+
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: #232f3e;
+}
+
+.footer-content {
+    width: 100%;
+    height: 30px;
+    background-color: #37475A;
+    margin-top: 5px;
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+
+}
+
+.panel {
+    margin-top: 30px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.panel ul a {
+    display: flex;
+    color: white;
+    margin-top: 5px;
+    font-size: large;
+
+}
+
+.panel ul p {
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+
+.panel ul a:hover {
+    text-decoration: underline;
+
+}
+
+.last-panel {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    background-color: #232f3e;
+    border-top: 1px solid lightcyan;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    display: flex;
+    background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB587940754_.png");
+    height: 50px;
+    width: 350px;
+
+}
+
+.msg2 {
+    display: flex;
+    color: white;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.msg2:hover{
+    text-decoration: underline;
+}
